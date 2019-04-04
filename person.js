@@ -1,9 +1,9 @@
 class Employee {                      // creating a class, every class will inherit Object
-    constructor(firstName, lastName, age) {     //  
-        this._firstName = firstName;
-        this._lastName = lastName;
-        this._age = age;
-    }
+    constructor(firstName, lastName, age) {     //  when i say newEmployee i'm executing this method
+        this._firstName = firstName;            //      "
+        this._lastName = lastName;              //      "
+        this._age = age;                        //     "
+    }                                           //     "
     set firstName(newFirstName) {
         this._firstName = newFirstName;
     }
